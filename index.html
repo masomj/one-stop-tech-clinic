@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/ecb94a392d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -42,48 +43,66 @@
             </div>
         </section>
         <section class="back-color what-we-do">
+            <div class="what-we-do-wrapper">
+                <div class="what-we-do-title">
+                    <h1>What we do</h1>
+                    <p>Computer Repairs, Screen Repairs. Custom Gaming PCs, PS4 and Xbox One repairs.</p>
+                </div>
             
-            <div class="what-we-do-title">
-                <h1>What we do</h1>
-                <p>Computer Repairs, Screen Repairs. Custom Gaming PCs, PS4 and Xbox One repairs.</p>
-            </div>
-            
-            <div class="container">
-                <div>
-                    <h2>Computer Repairs</h2>
-                    <p>Is you computer slow? Does it just not work? We can fix those issues, and more. </p>
-                    <a href="html/our-services.html">See More</a>
+                <div class="container">
+                    <div>
+                        <h2>Computer Repairs</h2>
+                        <p>Is you computer slow? Does it just not work? We can fix those issues, and more. </p>
+                        <a href="html/our-services.html">See More</a>
+                    </div>
+                    <div>
+                        <h2>Gaming PCs</h2>
+                        <p>At one Stop, we have gaming PCs. We've built a range of custom PCs for customers. If your want a custom gaming PC, get in touch with us today. </p>
+                        <a href="html/gaming-pcs.html">See More</a>
+                    </div>
+                    <div>
+                        <h2>Laptop Repairs</h2>
+                        <p>Has your laptop screen broken? Does your mouse not respond anymore? At One Stop, laptops are our bread and butter of repairs.  </p>
+                        <a href="html/our-services.html">See More</a>
+                    </div>
+                    <div>
+                        <h2>PS4 Repairs</h2>
+                        <p>Does your PS4 or Xbox sound like a jet engine about to take of? That's caused by a build of dust causing the PS4 to overheat.  Here, we can clean all the dust out and reapply thermal paste to the system. </p>
+                        <a href="html/our-services.html">See More</a>
+                    </div> 
                 </div>
-                <div>
-                    <h2>Gaming PCs</h2>
-                    <p>At one Stop, we have gaming PCs. We've built a range of custom PCs for customers. If your want a custom gaming PC, get in touch with us today. </p>
-                    <a href="html/gaming-pcs.html">See More</a>
-                </div>
-                <div>
-                    <h2>Laptop Repairs</h2>
-                    <p>Has your laptop screen broken? Does your mouse not respond anymore? At One Stop, laptops are our bread and butter of repairs.  </p>
-                    <a href="html/our-services.html">See More</a>
-                </div>
-                <div>
-                    <h2>PS4 Repairs</h2>
-                    <p>Does your PS4 or Xbox sound like a jet engine about to take of? That's caused by a build of dust causing the PS4 to overheat.  Here, we can clean all the dust out and reapply thermal paste to the system. </p>
-                    <a href="html/our-services.html">See More</a>
-                </div> 
             </div>
         </section>
         <section>
-            testimonies - hard code these with intent to have them auto added from facebook and google
+            
         </section>
-        <section>
-            Social links
+        <section class="white-space-color height">
+
         </section>
     </main>
 
     <footer>
-        <section>
-            contact us form and social icons
+        <section class="back-color footer" >
+            <form action="" method="POST" class="contact-us"> 
+                <h2>Contact us</h2>
+                <label for="contact-name" class="contact-label">Name:</label>
+                <label for="contact-email" class="contact-label">Email:</label>
+                <input type="text" id="contact-name" placeholder ="Name">
+                <input type="email" id="contact-email" placeholder="Email">
+                <label id="label-problem" for="contact-message">What is your problem?</label>
+                <textarea id="contact-message" name="contact-message" rows="4" placeholder="Message"></textarea>
+                <input type="submit" class="submit">
+        </form>
 
+            <section class="contact-icons">
+                <ul>
+                    <a href="https:\\www.faceboook.com\OneStopTechClinic"><li><i class="fab fa-facebook"></i> Facebook</li></a>
+                    <a href="https:\\www.twitter.com"><li><i class="fab fa-twitter"></i> Twitter</li></a>
+                    <a href="https:\\www.instagram.com"><li><i class="fab fa-instagram"></i> Instagram</li></a>
+                </ul>
+            </section>
         </section>
+        
     </footer>
 </body>
 </html>

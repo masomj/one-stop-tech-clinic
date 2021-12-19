@@ -4,7 +4,8 @@
     margin:0;
     padding:0;
     border:0;
-    font-family:'Readex Pro', sans-serif; 
+    font-family:'Readex Pro', sans-serif;
+    
 }
 
 .hero-image{
@@ -43,11 +44,12 @@
     position: relative;
     top:-5rem;
     left:50%;
-    width:50%;
+    width:48%;
     padding:5px;
     height:6rem;
     background-color:white;
     border-radius: 5px;
+    
     
 }
 .white-space-color{
@@ -72,11 +74,13 @@
     color:white;
     position:relative;
 }
+.what-we-do-wrapper{
+    width:75%;
+    margin:auto auto;
+}
 .what-we-do-title{
     margin-left:1rem;
 }
-
-
 
 .container{
 margin-top:1rem;
@@ -105,6 +109,86 @@ margin-top:1rem;
     bottom:1rem;
     }
 
-
+.contact-us{
+    position: relative;
+    padding:1rem;
+    color:white;
+    margin:auto auto;
+    width:75%;
+}
+.contact-us h2{
+    text-align: center;
+}
+.footer{
+    height:20rem;
+    position: relative;
     
+}
+#contact-email{
+    background-color: inherit;
+    border-bottom:1px solid white;
+    display:inline-block;
+    color:inherit;
+    width:49%;
+    margin-bottom:0.3rem;
+}
+#contact-name{
+    background-color: inherit;
+    border-bottom:1px solid white;
+    display:inline-block;
+    width:49%;
+    color:inherit;
+    margin-bottom:0.3rem;
+}
+    
+.contact-label{
+    margin-left:25%;
+    margin-right:15%;
+    display:inline-block;
+}
+#contact-message{
+    display:block;
+    background-color: inherit;
+    border-bottom:1px solid white;
+    width:100%;
+    color:inherit;
+}
+#label-problem{
+    margin-left:40%;
+}
+.height{
+    height:5rem;}
+    
+.testimonies{
+    height:20rem;
+    width:50%;
+    margin-right: 25%;
+    margin-left:25%;
+}
+.contact-icons ul {
+    display: flex;
+    list-style-type:none;
+    justify-content:left;
+    align-items:center;
+    height:5rem;
 
+}
+
+.contact-icons a{
+    margin-left:15%;
+    color:white;
+    text-decoration: none;
+}
+
+.submit{
+    display:inline;
+    background-color:#d71317;
+    color:white;
+    padding:0.4rem;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    position:absolute;
+    right:45%;
+    font-weight: bold;
+    
+}
