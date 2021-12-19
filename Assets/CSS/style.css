@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family:'Readex Pro', sans-serif; 
+}
+
+.hero-image{
+  width:100%;
+  clear:both;
+}
+
+#banner h1{
+    color:#1a2b6d;
+}
+
+#current{
+    color:#d71317;
+}
+.nav-bar a{
+     color:#1a2b6d;
+     text-decoration: none;
+    
+}
+#logo{
+    width:6rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style-type:none;
+    justify-content:left;
+    align-items:center;
+    height:5rem;
+    
+}
+.nav-bar li{
+    margin-right: 1rem;
+}
+.synopsis{
+    position: relative;
+    top:-5rem;
+    left:50%;
+    width:50%;
+    padding:5px;
+    height:6rem;
+    background-color:white;
+    border-radius: 5px;
+    
+}
+.white-space-color{
+    background-color:#a8eded;
+}
+.button-travel{
+    background-color:#d71317;
+    border-radius:3px;
+    color:white;
+    height:2rem;
+    padding:5px;
+    font-weight: bold;
+    position: absolute;
+    right:1rem;
+    bottom:-1rem;
+}
+.back-color{
+    background-color:#1a2b6d;
+}
+
+.what-we-do{
+    color:white;
+    position:relative;
+}
+.what-we-do-title{
+    margin-left:1rem;
+}
+
+
+
+.container{
+margin-top:1rem;
+ display:flex;
+}
+
+.container div{
+    height:22rem;
+    padding:0.5rem;
+    margin:0.5rem;
+    width:25%;
+    border:2px white solid;
+    box-shadow:5px 4px 0  1px #eee;
+}
+.container p{
+    padding:3rem 0;
+}
+.container h2{
+    padding-top:0.8rem;
+}
+
+
+.container a {
+    color:#d71317;
+    position:absolute;
+    bottom:1rem;
+    }
+
+
+    
+
