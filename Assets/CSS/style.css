@@ -205,12 +205,47 @@ margin-top:1rem;
 
 /*Media Queries*/
 @media (max-width:320px){
+    #banner{
+        width:100%;
+    }
+    .synopsis{
+        display:inline;
+        position: inherit;
+        height:12rem;
+        background-color:#a8eded;
+        margin:auto auto;
+        
+    }
+    .synopsis p{
+        margin: 0.5rem;
+    }
+    .synopsis h1{
+        margin:0.5rem;
+    }
+    
+    .button-travel  {
+        position: inherit;
+        display: block;
+        margin:0.5rem
+    }
+    
     .container{
         display:inline;
     }
+    .what-we-do-wrapper{
+        height: 80rem;
+    }
+    .what-we-do-title h1{
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+   
     .container div{
         width:100%;
         height:fit-content;
+        margin:auto auto;
+        margin-top:1rem;
+
     }
     .nav-bar{
         display:none;
