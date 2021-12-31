@@ -25,8 +25,10 @@
      text-decoration: none;
     
 }
+
 #logo{
     width:6rem;
+    
 }
 .nav-dropdown{
     display:none;
@@ -104,64 +106,18 @@ margin-top:1rem;
     padding-top:0.8rem;
 }
 
-
 .container a {
     color:#d71317;
     position:absolute;
     bottom:1rem;
     }
 
-.contact-us{
-    position: relative;
-    padding:1rem;
-    color:white;
-    margin:auto auto;
-    width:75%;
-}
-.contact-us h2{
-    text-align: center;
-}
 .footer{
-    height:20rem;
+    height:24rem;
     position: relative;
+
+}
     
-}
-#contact-email{
-    background-color: inherit;
-    border-bottom:1px solid white;
-    display:inline-block;
-    color:inherit;
-    width:49%;
-    margin-bottom:0.3rem;
-}
-#contact-name{
-    background-color: inherit;
-    border-bottom:1px solid white;
-    display:inline-block;
-    width:49%;
-    color:inherit;
-    margin-bottom:0.3rem;
-}
-.contact-form{
-    position: relative;
-    height:20rem;
-    
-}
-.contact-label{
-    margin-left:25%;
-    margin-right:15%;
-    display:inline-block;
-}
-#contact-message{
-    display:block;
-    background-color: inherit;
-    border-bottom:1px solid white;
-    width:100%;
-    color:inherit;
-}
-#label-problem{
-    margin-left:40%;
-}
 .height{
     height:5rem;}
     
@@ -180,6 +136,41 @@ margin-top:1rem;
 
 }
 
+.contact-us-wrapper{
+    
+    position: relative;
+    
+    height:18.5rem;
+    padding:1rem;
+    display:block;
+    margin-left:12.5%;
+    margin-right:12.5%;
+    
+    }
+ .contact-label{
+    display:block;
+    text-align: center;
+
+    
+ }  
+.contact-input{
+    text-align:center;
+    color:white;
+    
+}
+#contact-message, #contact-name, #contact-email {
+    background-color: #1a2b6d;
+    display: block;
+    border: 2px white solid;
+    border-radius: 0.3rem; 
+    color:white;
+    width:100%;
+    
+
+    
+}
+
+
 .contact-icons a{
     margin:auto auto;
     color:white;
@@ -187,16 +178,14 @@ margin-top:1rem;
 }
 
 .submit{
-    display:inline;
+    display:block;
     background-color:#d71317;
     color:white;
     padding:0.4rem;
+    margin: auto auto;
     border-radius: 0.2rem;
     margin-top: 0.5rem;
-    position:absolute;
-    right:45%;
     font-weight: bold;
-
 }
 
 /* End of Home */
@@ -204,11 +193,11 @@ margin-top:1rem;
 /*Start of our services */
 
 /*Media Queries*/
-@media (max-width:320px){
+@media (max-width:426px){
     #banner{
         width:100%;
     }
-    .synopsis{
+        .synopsis{
         display:inline;
         position: inherit;
         height:12rem;
@@ -233,7 +222,8 @@ margin-top:1rem;
         display:inline;
     }
     .what-we-do-wrapper{
-        height: 80rem;
+        height: 76rem;
+        padding-bottom:0.5rem;
     }
     .what-we-do-title h1{
         padding-top:0.5rem;
@@ -256,6 +246,9 @@ margin-top:1rem;
         overflow: hidden;
         background-color: white;
         display:block;
+    }
+    #logo{
+        float:left;
     }
     /* Refernce below code in readme*/
     .dropdown{
@@ -300,6 +293,10 @@ margin-top:1rem;
         display: block;
     }
   /*drop down nav complete*/
+    
+        
+    
+
 }
 @media (min-width:425px){}
 
