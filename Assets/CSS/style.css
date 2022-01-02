@@ -3,10 +3,7 @@
 *{
     margin:0;
     padding:0;
-    
     font-family:'Readex Pro', sans-serif;
-    
-    
 }
 
 .hero-image{
@@ -24,12 +21,14 @@
 .nav-bar a{
      color:#1a2b6d;
      text-decoration: none;
-    
+}
+.nav-bar {
+    height:6rem;
 }
 
 #logo{
-    width:6rem;
-    
+    height:7rem;
+    margin:0;
 }
 .nav-dropdown{
     display:none;
@@ -73,6 +72,7 @@
 }
 .back-color{
     background-color:#1a2b6d;
+    margin-top:-3px; /*logo Img has a 3px whitespace on the bottom*/
 }
 
 .what-we-do{
@@ -169,9 +169,6 @@ margin-top:1rem;
     border-radius: 0.3rem; 
     color:white;
     width:100%;
-    
-
-    
 }
 
 .contact-icons a{
@@ -191,7 +188,62 @@ margin-top:1rem;
     margin-top: 0.5rem;
     font-weight: bold;
 }
+/*Gaming PC's Page*/
+.gallery{
+    column-count:3;
+    width:75%;
+    margin:auto auto;
+    padding:0.5rem;
+    
+}
+.gallery-items{
+    list-style: none;
+    
+}
+.gallery img{
+    width:100%;
+    border:3px solid black;
+    border-radius: 3px;
+}
+.custom-pc-synopsis{
+    width:75%;
+    margin:auto auto;
+    padding:0.5rem;
+    border-radius:2px 2px 0 0;
+    margin-top:0;
+}
+.pc-img{
+    width:10rem;
+    
+}
+.prebuild-entry span{    
+    display:inline-block;
+    margin-top:1rem;
+}
+.prebuild-entry h2{
+    display:inline;
+    position: relative;
+    bottom:4rem;
+    border-bottom:2px solid black;
+    margin-left:0.5rem;
+}
+.prebuild-entry p{
+    margin:0.5rem;
+}
+.prebuild-gaming-pcs{
+    margin:auto auto;
+    width:75%;
+    padding:0.5rem;
+    border-radius:0px 0px 2px 2px
 
+}
+.prebuild-gaming-pcs ul {
+    margin-left:3rem;
+}
+
+.white{
+    background-color: white;
+}
 /* End of Home */
 /*start of Gaming PC's*/
 /*Start of our services */
