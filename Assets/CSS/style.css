@@ -24,12 +24,11 @@
 }
 .nav-bar {
     height:6rem;
+    
 }
-
 #logo{
     height:7rem;
-    margin:0;
-    
+    margin-bottom:-4px; 
 }
 .nav-dropdown{
     display:none;
@@ -39,8 +38,7 @@
     list-style-type:none;
     justify-content:left;
     align-items:center;
-    height:5rem;
-    
+    height:5rem;    
 }
 .nav-bar li{
     margin-right: 1rem;
@@ -53,11 +51,13 @@
     padding:5px;
     height:6rem;
     background-color:white;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 .white-space-color{
     background-color:#a8eded;
+}
+.padding{
+    padding-top:1rem;
 }
 .button-travel{
     background-color:#d71317;
@@ -73,13 +73,12 @@
 }
 .back-color{
     background-color:#1a2b6d;
-    margin-top:-3px; /*logo Img has a 3px whitespace on the bottom*/
+    
 }
 
 .what-we-do{
     color:white;
     position:relative;
-    
 }
 .what-we-do-wrapper{
     width:75%;
@@ -92,12 +91,10 @@
 .what-we-do-title h1{
     padding-top:1rem;
 }
-
 .container{
 margin-top:1rem;
  display:flex;
 }
-
 .container div{
     height:22rem;
     padding:0.5rem;
@@ -112,17 +109,14 @@ margin-top:1rem;
 .container h2{
     padding-top:0.8rem;
 }
-
 .container a {
     color:#d71317;
     position:absolute;
     bottom:1rem;
-    }
-
+}
 .footer{
     height:24rem;
-}
-    
+}  
 .height{
     height:5rem;}
     
@@ -136,7 +130,7 @@ margin-top:1rem;
     position: fixed;
     bottom:0;
     width:100%;
-    height:2rem;
+    padding:0.5rem;
     background-color: #1a2b6d;
 }
 .contact-icons ul {
@@ -197,7 +191,8 @@ margin-top:1rem;
 
 /* End of Home */
 /*start of Gaming PC's*/
-/*Gaming PC's Page*/
+
+
 .gallery{
     column-count:3;
     width:75%;
@@ -219,7 +214,6 @@ margin-top:1rem;
     margin:auto auto;
     padding:0.5rem;
     border-radius:2px 2px 0 0;
-    margin-top:0;
 }
 .pc-img{
     width:10rem;
@@ -254,7 +248,25 @@ margin-top:1rem;
     background-color: white;
 }
 /*Start of our services */
+/*Our Services Page*/
 
+.services-wrapper{
+    width:75%;
+    margin:auto auto;
+    border-radius:2px;
+}
+    
+.services-wrapper div{
+    padding:1rem;
+}
+.services-wrapper h1 {
+    text-align: center;
+    padding:1rem;
+    border-bottom:1px solid black;
+}
+.services-wrapper p{
+    padding:0.25rem;
+}
 /*Media Queries*/
 @media (max-width:426px){
     *{
