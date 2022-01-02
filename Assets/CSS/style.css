@@ -3,8 +3,9 @@
 *{
     margin:0;
     padding:0;
-    border:0;
+    
     font-family:'Readex Pro', sans-serif;
+    
     
 }
 
@@ -54,7 +55,6 @@
     background-color:white;
     border-radius: 5px;
     
-    
 }
 .white-space-color{
     background-color:#a8eded;
@@ -62,6 +62,7 @@
 .button-travel{
     background-color:#d71317;
     border-radius:3px;
+    border: none;
     color:white;
     height:2rem;
     padding:5px;
@@ -77,13 +78,18 @@
 .what-we-do{
     color:white;
     position:relative;
+    
 }
 .what-we-do-wrapper{
     width:75%;
     margin:auto auto;
+    overflow: hidden;
 }
 .what-we-do-title{
     margin-left:1rem;
+}
+.what-we-do-title h1{
+    padding-top:1rem;
 }
 
 .container{
@@ -115,7 +121,7 @@ margin-top:1rem;
 .footer{
     height:24rem;
     position: relative;
-
+    
 }
     
 .height{
@@ -132,8 +138,6 @@ margin-top:1rem;
     list-style-type:none;
     justify-content:left;
     align-items:center;
-    height:5rem;
-
 }
 
 .contact-us-wrapper{
@@ -170,7 +174,6 @@ margin-top:1rem;
     
 }
 
-
 .contact-icons a{
     margin:auto auto;
     color:white;
@@ -184,6 +187,7 @@ margin-top:1rem;
     padding:0.4rem;
     margin: auto auto;
     border-radius: 0.2rem;
+    border: none;
     margin-top: 0.5rem;
     font-weight: bold;
 }
@@ -194,6 +198,10 @@ margin-top:1rem;
 
 /*Media Queries*/
 @media (max-width:426px){
+    *{
+        margin:0;
+        padding:0;
+    }
     #banner{
         width:100%;
     }
@@ -207,6 +215,7 @@ margin-top:1rem;
     }
     .synopsis p{
         margin: 0.5rem;
+        width:100%;
     }
     .synopsis h1{
         margin:0.5rem;
@@ -215,15 +224,19 @@ margin-top:1rem;
     .button-travel  {
         position: inherit;
         display: block;
-        margin:0.5rem
+        margin:0.5rem;
+       
     }
-    
+    .what-we-do{
+        width:100%;
+    }
     .container{
         display:inline;
     }
     .what-we-do-wrapper{
-        height: 76rem;
+        height: 78rem;
         padding-bottom:0.5rem;
+        width:100%;
     }
     .what-we-do-title h1{
         padding-top:0.5rem;
@@ -231,16 +244,16 @@ margin-top:1rem;
     }
    
     .container div{
-        width:100%;
-        height:fit-content;
+        width:80%;
+        height:15rem;;
         margin:auto auto;
         margin-top:1rem;
+        
 
     }
     .nav-bar{
         display:none;
     }
-
 
     .nav-dropdown{
         overflow: hidden;
@@ -270,7 +283,7 @@ margin-top:1rem;
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 160px;
+        
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1; 
     }
@@ -298,6 +311,18 @@ margin-top:1rem;
     
 
 }
-@media (min-width:425px){}
-
-@media (min-width:768px){}
+@media ( min-width:426px) and (max-width:768px){ 
+    .synopsis{
+        height:10rem;
+    }
+    .what-we-do-wrapper{
+        width:100%;
+    }
+    .container div{
+        
+        width:100%;
+        height:24rem;
+        border:2px white solid;
+               
+    }
+}
