@@ -29,6 +29,7 @@
 #logo{
     height:7rem;
     margin:0;
+    
 }
 .nav-dropdown{
     display:none;
@@ -188,6 +189,9 @@ margin-top:1rem;
     margin-top: 0.5rem;
     font-weight: bold;
 }
+
+/* End of Home */
+/*start of Gaming PC's*/
 /*Gaming PC's Page*/
 .gallery{
     column-count:3;
@@ -244,8 +248,6 @@ margin-top:1rem;
 .white{
     background-color: white;
 }
-/* End of Home */
-/*start of Gaming PC's*/
 /*Start of our services */
 
 /*Media Queries*/
@@ -254,10 +256,13 @@ margin-top:1rem;
         margin:0;
         padding:0;
     }
+    #logo{
+        margin-bottom:3px;
+    }
     #banner{
         width:100%;
     }
-        .synopsis{
+    .synopsis{
         display:inline;
         position: inherit;
         height:12rem;
@@ -357,9 +362,26 @@ margin-top:1rem;
     .dropdown:hover .drop-content {
         display: block;
     }
-  /*drop down nav complete*/
+    /*drop down nav complete*/
+    /*Gaming PC page*/
+    .gallery {
+        width:90%;
+    }
+    .custom-pc-synopsis{
+        width:90%;
+    }
+    .prebuild-gaming-pcs{
+        width:90%;
+    }
+    .prebuild-entry h2{
+        font-size: large;
+    }
     
-        
+    @media (max-width:320px){
+        .prebuild-entry h2{
+            font-size: small;
+        }
+    }
     
 
 }
