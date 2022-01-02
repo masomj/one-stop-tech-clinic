@@ -8,18 +8,40 @@
     <link href="../Assets/CSS/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ecb94a392d.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="back-color">
     <header>
         <section>
-            <nav class="nav-bar">
+            <nav class="nav-bar white">
                 <ul>
                     <li><a href="../index.html"><img id="logo" src="../Assets/Images/OneStopLogo.jpg"></a></li>
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html" >Home</a></li>
                     <li><a href="/html/gaming-pcs.html">Gaming PCs </a></li>
                     <li><a href="/html/our-services.html"> Our Services</a></li>
                     <li><a href="/html/why-choose-us.html">Why Choose us?</a></li>
                     <li><a href="/HTML/contact-us.html" id="current">Contact us</a></li>
                 </ul>
+            </nav>
+        </section>
+
+        <section> <!-- Dropdown Nav Bar _ this contains code from W3Schools on how to create a dropdown nav bar  https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp#:~:text=Example%20Explained,dropdown%20menu%20correctly%20with%20CSS.-->
+            <nav class="nav-dropdown white">
+                <a href="../index.html"><img id="logo" src="../Assets/Images/OneStopLogo.jpg"></a>
+                <div class="dropdown">
+                    <button class="drop-button">Menu
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-content">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="/html/gaming-pcs.html">Gaming PCs </a></li>
+                            <li><a href="/html/our-services.html"> Our Services</a></li>
+                            <li><a href="/html/why-choose-us.html">Why Choose us?</a></li>
+                            <li><a href="/HTML/contact-us.html">Contact us</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                
             </nav>
         </section>
     </header>
@@ -42,7 +64,7 @@
     </main>
 
     <footer>
-        <section>
+        <section class="footer">
             <section class="contact-icons back-color">
                 <ul>
                     <a href="https:\\www.instagram.com"><li><i class="fab fa-instagram"></i></li></a>
