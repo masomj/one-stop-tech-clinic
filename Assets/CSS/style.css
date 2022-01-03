@@ -255,7 +255,12 @@ margin-top:1rem;
     margin:auto auto;
     border-radius:2px;
 }
-    
+
+#our-services-title{
+    width:fit-content;
+    margin:auto auto;
+    border-bottom:2px solid black;
+}
 .services-wrapper div{
     padding:1rem;
 }
@@ -267,14 +272,34 @@ margin-top:1rem;
 .services-wrapper p{
     padding:0.25rem;
 }
+
+/*Why Choose Us*/
+.why-choose-us-wrapper{
+    width:75%;
+    margin:auto auto;
+    padding:1rem;
+    border-radius:2px;
+}
+#why-choose-us-title{
+    text-align: center;
+    border-bottom: 2px black solid;
+    width:fit-content;
+    margin:auto auto;
+}
+.why-choose-us-wrapper h1{
+    padding:1rem;
+    border-bottom:1px solid black;
+    text-align: center;
+}
+.why-choose-us-wrapper p{
+    padding:0.25rem;
+}
+
 /*Media Queries*/
 @media (max-width:426px){
     *{
         margin:0;
         padding:0;
-    }
-    #logo{
-        margin-bottom:3px;
     }
     #banner{
         width:100%;
@@ -285,7 +310,6 @@ margin-top:1rem;
         height:12rem;
         background-color:#a8eded;
         margin:auto auto;
-        
     }
     .synopsis p{
         margin: 0.5rem;
@@ -294,12 +318,10 @@ margin-top:1rem;
     .synopsis h1{
         margin:0.5rem;
     }
-    
     .button-travel  {
         position: inherit;
         display: block;
         margin:0.5rem;
-       
     }
     .what-we-do{
         width:100%;
@@ -316,19 +338,15 @@ margin-top:1rem;
         padding-top:0.5rem;
         padding-bottom:0.5rem;
     }
-   
     .container div{
         width:80%;
         height:15rem;;
         margin:auto auto;
         margin-top:1rem;
-        
-
     }
     .nav-bar{
         display:none;
     }
-
     .nav-dropdown{
         overflow: hidden;
         background-color: white;
@@ -342,7 +360,6 @@ margin-top:1rem;
         float:left;
         overflow:hidden;
     }
-
     .dropdown .drop-button{
         font-size: 16px;
         border:none;
@@ -357,7 +374,6 @@ margin-top:1rem;
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1; 
     }
@@ -368,7 +384,6 @@ margin-top:1rem;
         text-decoration: none;
         display: block;
         text-align: left;
-          
     }
     .navbar a:hover, .dropdown:hover .drop-button {
         color:#d71317;
@@ -393,7 +408,7 @@ margin-top:1rem;
     .prebuild-entry h2{
         font-size: large;
     }
-    
+}
     @media (max-width:320px){
         .prebuild-entry h2{
             font-size: small;
@@ -401,7 +416,7 @@ margin-top:1rem;
     }
     
 
-}
+
 @media ( min-width:426px) and (max-width:768px){ 
     .synopsis{
         height:10rem;
