@@ -454,14 +454,21 @@ text-align: center;
 
 }
 
-@media (min-width:1081px) and (max-width:1440px){
+@media (min-width:1440px){
     *{
-        font-size: 32px;
+        font-size: 20px;
     }
     .contact-us-wrapper{
         width:50%;
         margin-left:25%;
-        background-color: #d71317;
+
+    }
+    
+}
+
+@media (min-width:2560px) {
+    *{
+        font-size:32px;
     }
     
 }
