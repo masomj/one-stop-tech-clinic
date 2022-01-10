@@ -309,7 +309,14 @@ text-align: center;
 .thank-you-wrapper h1{
     padding-bottom:0.5rem;
 }
-
+.error {
+    width:75%;
+    margin-top:5rem;
+    margin-left:12.5%;
+    padding: 0.5rem;
+    border-radius: 2px;
+    
+}
 /*Media Queries*/
 @media (max-width:426px){
     *{
