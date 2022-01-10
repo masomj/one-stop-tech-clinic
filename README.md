@@ -58,6 +58,7 @@ img of table of results after testing on multiple device sizes using chrome dev 
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 ##### Bugs
 note any bugs still in the project / or some that were difficult to resolve
+- links on nav bar wouldnt work - disucss changing file name from lc to uc
 ### Further functionality
 As my skills in Javascript and other back end languages develop, I would like to implement further features such as a custom PC builder on the site, to allow users to create custom builds and provide the business with a configuration to then build. 
 Additionally, I would like to implement a chat bot to speed up and increase the frequency of user interactions, with the goal of increasing custom for the business. 
