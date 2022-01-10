@@ -295,6 +295,17 @@ margin-top:1rem;
     padding:0.25rem;
 }
 
+/*Thank-you*/
+
+.thank-you-wrapper{
+width:75%;
+margin-top: 1rem;
+margin-left:12.5%;
+padding:1rem;
+border-radius:2px;
+
+}
+
 /*Media Queries*/
 @media (max-width:426px){
     *{
