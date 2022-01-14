@@ -165,7 +165,7 @@ margin-top:1rem;
 
 .contact-icons a{
     margin:auto auto;
-    color:white;
+    color:black;
     text-decoration: none;
 }
 
@@ -285,6 +285,16 @@ margin-top:1rem;
 }
 .why-choose-us-wrapper p{
     padding:0.25rem;
+}
+
+
+    
+.opening-times table{
+    margin:auto auto;
+}
+
+.opening-times table td{
+    padding:0.3rem;
 }
 
 /*Thank-you*/
