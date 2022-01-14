@@ -53,9 +53,7 @@
     background-color:white;
     border-radius: 5px;    
 }
-.white-space-color{
-    background-color:#a8eded;
-}
+
 .padding{
     padding-top:1rem;
 }
@@ -72,12 +70,12 @@
     bottom:-1rem;
 }
 .back-color{
-    background-color:#1a2b6d;
+    background-color:#D7E5F0;
     
 }
 
 .what-we-do{
-    color:white;
+
     position:relative;
 }
 .what-we-do-wrapper{
@@ -94,6 +92,7 @@
 .container{
 margin-top:1rem;
  display:flex;
+ 
 }
 .container div{
     height:22rem;
@@ -102,6 +101,7 @@ margin-top:1rem;
     width:25%;
     border:2px white solid;
     box-shadow:5px 4px 0  1px #eee;
+    background-color:#F0E2D7 ;
 }
 .container p{
     padding:3rem 0;
@@ -116,7 +116,7 @@ margin-top:1rem;
 }
 .footer{
     height:24rem;
-}  
+}
 .height{
     height:5rem;}
     
@@ -131,7 +131,7 @@ margin-top:1rem;
     bottom:0;
     width:100%;
     padding:0.5rem;
-    background-color: #1a2b6d;
+    
 }
 .contact-icons ul {
     display: flex;
@@ -147,21 +147,15 @@ margin-top:1rem;
     display:block;
     margin-left:12.5%;
     margin-right:12.5%;
-    
     }
  .contact-label{
     display:block;
     text-align: center;
-
-    
  }  
 .contact-input{
     text-align:center;
-    color:white;
-    
 }
 #contact-message, #contact-name, #contact-email {
-    background-color: #1a2b6d;
     display: block;
     border: 2px white solid;
     border-radius: 0.3rem; 
