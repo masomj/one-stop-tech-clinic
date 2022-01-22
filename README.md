@@ -29,7 +29,7 @@
 ### Wireframes
 <details>
 <summary>Wireframes</summary>
-[Desktop View](Docs/Wireframes/ContactUs_desktopview.png)
+<img src="Docs/Wireframes/ContactUs_desktopview.png">
 [Desktop View](Docs/Wireframes/HomePage Desktop View.png)
 [Desktop View](Docs/Wireframes/HomePage_mobileView.png)
 [Desktop View](Docs/Wireframes/WhyChooseUs_desktopView.png)
