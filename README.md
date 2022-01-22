@@ -1,6 +1,8 @@
 # Milestone Project One
+
+[Am I Responsive Image](Docs/Images/AmIResponsiveTest.png)
 ## One Stop Tech Clinic
-  -This website is going to be the main online presence of the business "One Stop Tech Clinic". It will be replacing their facebook page as thier primary focus. Therefore, it needs to be responvie and accesible accross a range of devices, operating systems and screen sizes. It's goal is to bring in new customers for the computer repair business. So it needs to contain information about services that are offered, along with how to get them.
+  - This website is going to be the main online presence of the business "One Stop Tech Clinic". It will be replacing their facebook page as thier primary focus. Therefore, it needs to be responvie and accesible accross a range of devices, operating systems and screen sizes. It's goal is to bring in new customers for the computer repair business. So it needs to contain information about services that are offered, along with how to get them.
 ## place the multiple screen image here
 ### User Experience (UX)
 #### User Stories
@@ -12,21 +14,24 @@
 
 #### Returning Visitor Goals
   1. As a returning visitor, I want to be able to find the businesses contact information quickly
-  2. As a returning visitor, i want to be able to see the businesses service guarantee / warranty policy
-
+ 
 #### Design Process
 -  ##### Colour Scheme
    - There are 4 main colours used throughout the site. That is Red, White, Dark Blue and Aqua blue. These colours were chosen as they are bright, bold colours that contrast well with each other. The inclusion of red buttons throughout the site was done as red is the colour that attracts the human eye the most, making the user immediately want to click it, increasing site engagement. 
 
    - After user feedback, I made the decision to change the colour theme to a milder them, with pastel blue and beige. This brings the website in line with modern design standards. 
+   
   - #### Typography
    - As this site is aimed at providing information and attracting potential customers, an attractive and readable font called was Readex Pro chosen. A backup font of Sans Serif was set to reduce the possibilty of an error resulting in the font defaulting to Times New Roman.
   - #### Imagery
    - The business already has an established social media page. So all imagery needed to be consistend with it, as some traffic may come from the social media pages. Mainly, the logo of the business, and the banner page had to be the same. The Hero image of the site is the same as the one used as a banner on the businesses facebook page. This is also true for the logo that sits in the top left corner of the Header, which also doubles as a home button. These images have releveant content and minimal, contrasting text which makes them appealing to the eye and perfect to greet a new site visitor and grab their attention.
     
 ### Wireframes
-- home page mobile
-- home page 1080p
+![Desktop View](Docs/Wireframes/ContactUs_desktopview.png)
+![Desktop View](Docs/Wireframes/HomePage Desktop View.png)
+![Desktop View](Docs/Wireframes/HomePage_mobileView.png)
+![Desktop View](Docs/Wireframes/WhyChooseUs_desktopView.png)
+![Desktop View](Docs/Wireframes/OurServices_desktopView.png)
 
 ### Technologies and Tools
 - HTML
@@ -47,15 +52,9 @@
 
 #### Lighthouse Testing
  - In order to test the website's accessability (amongst other things) we use lighthouse, which is built in Chrome developer tools. Lighthouse testing of the site pointed out a small minor issues, like the alt attribute was missing from the logo image in the nav bar and the li elements for the footer wire in an incorrect order. 
-
-
-
  - All of the pages scored high in the tests, meaning the website adhereres to modern accesability standards. 
-![DesktopView](Docs/Wireframes/ContactUs_desktopview.png)
-![MobileView](Docs/Wireframes/HomePage_mobileView.png)
-![DesktopView](Docs/Wireframes/WhyChooseUs_desktopView.png)
-![DesktopView](Docs/Wireframes/OurServices_desktopView.png)
-![DesktopView](Docs/Wireframes/HomePage Desktop View.png)
+[Lighthouse Test Report](Docs/Images/Lighthouse.png)
+
 
  #### Functionality Testing
  - All clickable events in the website were tested to ensure the functionalty was as desired. Every navigation link and button was selected to ensure they directed they user to the correct place. 
@@ -73,10 +72,20 @@ Link to img of each page's code test result
 Link to img
 #### User Stories Testing
 ##### First Time Visitor
- link to image of excel table - 
+
+  1. As a first time visitor, I want to be able to tell what services are offered soon after loading the website
+    - This is acheived via the 4 information boxes on the home screen describing the services offered.
+  2. As a first time visitor, I want to be able to easily and intuitivly navigate the website
+    - The Website has a clear nagivation menu, with page titles that effectively communicate the content of that page.
+  3. As a first time visitor, I want to be able to see evidence of the business's work.
+    - Evidence of the Business' work can be found on the same pages as the ones depicting the services offered in more detail. 
+  4. As a first time visitor, I want to be able to easily and intuitivly contact the business in order to request a service
+    - The aim of the site is to get new customers. Therefore they need to be able to easily get in contact. There is a contact form at the bottom of every page that the user can       use to submit a message to the business.  
 
 ##### Returning Visitor
-  link to image of excel table
+   1. As a returning visitor, I want to be able to find the businesses contact information quickly
+    - Contacting the business is as easy as filling out the contact form in the footer, or using the social media links to navigate to the Social media site of the business to         direct message them.
+  
 ##### Device testing
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
