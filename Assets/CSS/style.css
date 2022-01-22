@@ -174,12 +174,12 @@
 
 .contact-label {
     display: block;
-    margin-bottom: 1%;
-
+   
 }
 
 .contact-input {
     text-align: center;
+    
 }
 
 #contact-message,
@@ -189,6 +189,7 @@
     border: 2px white solid;
     border-radius: 0.3rem;
     width: 100%;
+    margin:0.2rem;
 }
 
 .contact-icons a {
