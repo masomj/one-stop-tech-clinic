@@ -53,7 +53,7 @@
 #### Lighthouse Testing
  - In order to test the website's accessability (amongst other things) we use lighthouse, which is built in Chrome developer tools. Lighthouse testing of the site pointed out a small minor issues, like the alt attribute was missing from the logo image in the nav bar and the li elements for the footer wire in an incorrect order. 
  - All of the pages scored high in the tests, meaning the website adhereres to modern accesability standards. 
-[Lighthouse Test Report](Docs/Images/Lighthouse.png)
+[Lighthouse Test Report](Docs/Images/Lighthouse Report.png)
 
 
  #### Functionality Testing
@@ -68,6 +68,9 @@
 W3 Schools offer a code validation for both HTML and CSS. I ran all of my HTML pages and all CSS code through these. 
 ##### Results
 After Running my code throught the validator, several issues were identified. For instance, I was using and ID targer 2 elements, which should have been done via a class selector. This was a simple fix. 
+The errors are shown in the image below. 
+[Validator Errors](Docs/Images/htmlTestFail.png)
+
 #### User Stories Testing
 ##### First Time Visitor
 
