@@ -85,13 +85,13 @@ After resolving all of the errors shown, I was left with advisories that stated 
 ##### First Time Visitor
 
   1. As a first time visitor, I want to be able to tell what services are offered soon after loading the website
-    - This is acheived via the 4 information boxes on the home screen describing the services offered.
+  - This is acheived via the 4 information boxes on the home screen describing the services offered.
   2. As a first time visitor, I want to be able to easily and intuitivly navigate the website
-    - The Website has a clear nagivation menu, with page titles that effectively communicate the content of that page.
+  - The Website has a clear nagivation menu, with page titles that effectively communicate the content of that page.
   3. As a first time visitor, I want to be able to see evidence of the business's work.
-    - Evidence of the Business' work can be found on the same pages as the ones depicting the services offered in more detail. 
+  - Evidence of the Business' work can be found on the same pages as the ones depicting the services offered in more detail. 
   4. As a first time visitor, I want to be able to easily and intuitivly contact the business in order to request a service
-    - The aim of the site is to get new customers. Therefore they need to be able to easily get in contact. There is a contact form at the bottom of every page that the user can       use to submit a message to the business.  
+  - The aim of the site is to get new customers. Therefore they need to be able to easily get in contact. There is a contact form at the bottom of every page that the user can       use to submit a message to the business.  
 
 ##### Returning Visitor
    1. As a returning visitor, I want to be able to find the businesses contact information quickly
