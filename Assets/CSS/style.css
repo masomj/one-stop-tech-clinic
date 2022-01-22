@@ -296,6 +296,7 @@
 
 .services-wrapper div {
     padding: 1rem;
+    background-color: #F0E2D7;
 }
 
 .services-wrapper h1 {
@@ -314,6 +315,8 @@
     margin: auto auto;
     padding: 1rem;
     border-radius: 2px;
+    background-color: #F0E2D7;
+    
 }
 
 #why-choose-us-title {
