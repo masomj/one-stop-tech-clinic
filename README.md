@@ -48,11 +48,11 @@
 #### Lighthouse Testing
  - In order to test the website's accessability (amongst other things) we use lighthouse, which is built in Chrome developer tools. Lighthouse testing of the site pointed out a small minor issues, like the alt attribute was missing from the logo image in the nav bar and the li elements for the footer wire in an incorrect order. 
  - All of the pages scored high in the tests, meaning the website adhereres to modern accesability standards. 
-![alt text](docs/wireframes/GamingPCS_desktopview.png)
-![alt text](docs/wireframes/HomePage_desktopview.png)
-![alt text](docs/wireframes/HomePage_mobileView.png)
-![alt text](docs/wireframes/WhyChooseUs_desktopView.png)
-![alt text](docs/wireframes/contactUs_desktopview.png)
+![alt text](docs/Wireframes/GamingPCS_desktopview.png)
+![alt text](docs/Wireframes/Home Page Desktop View.png)
+![alt text](docs/Wireframes/HomePage_mobileView.png)
+![alt text](docs/Wireframes/WhyChooseUs_desktopView.png)
+
 
  #### Functionality Testing
  - All clickable events in the website were tested to ensure the functionalty was as desired. Every navigation link and button was selected to ensure they directed they user to the correct place. 
