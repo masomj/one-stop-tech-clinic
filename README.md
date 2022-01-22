@@ -27,11 +27,14 @@
    - The business already has an established social media page. So all imagery needed to be consistend with it, as some traffic may come from the social media pages. Mainly, the logo of the business, and the banner page had to be the same. The Hero image of the site is the same as the one used as a banner on the businesses facebook page. This is also true for the logo that sits in the top left corner of the Header, which also doubles as a home button. These images have releveant content and minimal, contrasting text which makes them appealing to the eye and perfect to greet a new site visitor and grab their attention.
     
 ### Wireframes
+<details>
+<summary>Wireframes</summary>
 ![Desktop View](Docs/Wireframes/ContactUs_desktopview.png)
 ![Desktop View](Docs/Wireframes/HomePage Desktop View.png)
 ![Desktop View](Docs/Wireframes/HomePage_mobileView.png)
 ![Desktop View](Docs/Wireframes/WhyChooseUs_desktopView.png)
 ![Desktop View](Docs/Wireframes/OurServices_desktopView.png)
+</details>
 
 ### Technologies and Tools
 - HTML
@@ -67,11 +70,16 @@
 #### Code Validation
 W3 Schools offer a code validation for both HTML and CSS. I ran all of my HTML pages and all CSS code through these. 
 ##### Results
-After Running my code throught the validator, several issues were identified. For instance, I was using and ID targer 2 elements, which should have been done via a class selector. This was a simple fix. 
+After Running my code throught the validator, several issues were identified. For instance, I was using an ID selector to target 2 elements, which should have been done via a class selector. This was a simple fix. 
 The errors are shown in the image below. 
-[Validator Errors](Docs/Images/htmlTestFail.png)
+<details>
+<summary> Validation Tests </summary>
+![Validator Errors](Docs/Images/htmlTestFail.png)
+![Validator Pass](Docs/Images/htmltestpass.png)
+</details>
 
-After resolving all of the errors shown, I was left with advisories. 
+After resolving all of the errors shown, I was left with advisories that stated my sections did not have h1 elements. This is because my section were used semantically and often, a heading element was not required. 
+### Testing
 #### User Stories Testing
 ##### First Time Visitor
 
@@ -99,18 +107,26 @@ As my skills in Javascript and other back end languages develop, I would like to
 Additionally, I would like to implement a chat bot to speed up and increase the frequency of user interactions, with the goal of increasing custom for the business. 
 
 ### Deployment
-#### Site Deployment
+#### Local Deployment 
+In order to deploy this project locally, you will require a text editor like Visual Studio Code. 
+- There are 2 ways to deploy locally. You can download the code in .zip file directly from github, or clone the repository on your machine following the steps in the next section. 
+
+- Once the code is downloaded via either method, navigate to the directory in which it is saved, then right click the folder, and select "Open with VS Code". The whole project file will then open in VS code
+
+- In order to make the development process easier, some VS code extensions I would reccomend installing would be "Live Server". This create a live server in VS Code, which allows you to see changes made in real time. This is extremely useful for debugging. 
+#### Repository Cloning
+Should you wish to work on this project, you will first needs to clone the repository. In order to do this, you can simply download the source files from github, or you can do this with GitBash. The steps below are for the GitBash process.
+1. Navigate to the landing page of the repository you would like to clone.
+2. Navigate to the Code section, and then copy the URL.
+3. Open GitBash and type " Git Clone $Enter URL here$"
+
+#### Remote Deployment
 This Website was deployed using github Pages. I own a domain name for this site, but to use that required calling the domain providers to chane DNS settings, which I deemed not nessacary. To deploy a site to GitHub Pages, follow these steps.
 1. Navigate to the repostiory you would like to publish.
 2. Select "settings", then select the "Pages" sub menu.
 3. Select the branch you wish to publish. (It will usually be "main") and hit save.
 4. The site will go live in the next 10 minutes. Though it can take longer on some occasions.
 
-#### Repository Cloning
-Should you wish to work on this project, you will first needs to clone the repository. In order to do this, you can simply download the source files from github, or you can do this with GitBash. The steps below are for the GitBash process.
-1. Navigate to the landing page of the repository you would like to clone.
-2. Navigate to the Code section, and then copy the URL.
-3. Open GitBash and type " Git Clone $Enter URL here$"
 
 
 ### Credits
