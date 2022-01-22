@@ -57,7 +57,7 @@
 #### Lighthouse Testing
  - In order to test the website's accessibility (amongst other things) we use lighthouse, which is built in Chrome developer tools. Lighthouse testing of the site pointed out a small minor issues, like the alt attribute was missing from the logo image in the nav bar and the li elements for the footer wire in an incorrect order. 
  - All of the pages scored high in the tests, meaning the website adherers to modern accessibility standards. 
-<im src="Docs/Images/Lighthouse Report.png">
+<img src="Docs/Images/Lighthouse Report.png">
 
  #### Functionality Testing
  - All clickable events in the website were tested to ensure the functionality was as desired. Every navigation link and button was selected to ensure they directed they user to the correct place. 
