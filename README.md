@@ -22,9 +22,9 @@
 
    - After user feedback, I made the decision to change the colour theme to a milder them, with pastel blue and beige. This brings the website in line with modern design standards. 
    
-  - #### Typography
+- #### Typography
    - As this site is aimed at providing information and attracting potential customers, an attractive and readable font called was Readex Pro chosen. A backup font of Sans Serif was set to reduce the possibilty of an error resulting in the font defaulting to Times New Roman.
-  - #### Imagery
+- #### Imagery
    - The business already has an established social media page. So all imagery needed to be consistend with it, as some traffic may come from the social media pages. Mainly, the logo of the business, and the banner page had to be the same. The Hero image of the site is the same as the one used as a banner on the businesses facebook page. This is also true for the logo that sits in the top left corner of the Header, which also doubles as a home button. These images have releveant content and minimal, contrasting text which makes them appealing to the eye and perfect to greet a new site visitor and grab their attention.
     
 ### Wireframes
