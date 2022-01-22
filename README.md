@@ -30,10 +30,10 @@
 <details>
 <summary>Wireframes</summary>
 <img src="Docs/Wireframes/ContactUs_desktopview.png">
-[Desktop View](Docs/Wireframes/HomePage Desktop View.png)
-[Desktop View](Docs/Wireframes/HomePage_mobileView.png)
-[Desktop View](Docs/Wireframes/WhyChooseUs_desktopView.png)
-[Desktop View](Docs/Wireframes/OurServices_desktopView.png)
+<img src="Docs/Wireframes/HomePage Desktop View.png">
+<img src="Docs/Wireframes/HomePage_mobileView.png">
+<img src="Docs/Wireframes/WhyChooseUs_desktopView.png">
+<img src="Docs/Wireframes/OurServices_desktopView.png">
 </details>
 
 ### Technologies and Tools
@@ -74,8 +74,8 @@ After Running my code throught the validator, several issues were identified. Fo
 The errors are shown in the image below. 
 <details>
 <summary> Validation Tests </summary>
-[Validator Errors](Docs/Images/htmlTestFail.png)
-[Validator Pass](Docs/Images/htmltestpass.png)
+<img src="Docs/Images/htmlTestFail.png">
+<img src="Docs/Images/htmltestpass.png">
 </details>
 
 After resolving all of the errors shown, I was left with advisories that stated my sections did not have h1 elements. This is because my section were used semantically and often, a heading element was not required. 
