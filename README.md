@@ -66,10 +66,8 @@
  - After the lighthouse testing, it was identifed that my footers needed the list elements changed around. After doing this, they no were no longer centered. The cause was the change of order meant that they were no longer selected by the css rule. Targeting them as a child of the ul resolved it.
 #### Code Validation
 W3 Schools offer a code validation for both HTML and CSS. I ran all of my HTML pages and all CSS code through these. 
-##### HTML Results
-Link to img of each page's code test result
-##### CSS Results
-Link to img
+##### Results
+After Running my code throught the validator, several issues were identified. For instance, I was using and ID targer 2 elements, which should have been done via a class selector. This was a simple fix. 
 #### User Stories Testing
 ##### First Time Visitor
 
