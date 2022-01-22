@@ -1,6 +1,7 @@
 # Milestone Project One
 
-[Am I Responsive Image](Docs/Images/AmIResponsiveTest.png)
+<img src="Docs/Images/AmIResponsiveTest.png">
+
 ## One Stop Tech Clinic
   - This website is going to be the main online presence of the business "One Stop Tech Clinic". It will be replacing their facebook page as thier primary focus. Therefore, it needs to be responvie and accesible accross a range of devices, operating systems and screen sizes. It's goal is to bring in new customers for the computer repair business. So it needs to contain information about services that are offered, along with how to get them.
 ## place the multiple screen image here
