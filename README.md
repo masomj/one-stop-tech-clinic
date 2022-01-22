@@ -47,21 +47,15 @@
 
 #### Lighthouse Testing
  - In order to test the website's accessability (amongst other things) we use lighthouse, which is built in Chrome developer tools. Lighthouse testing of the site pointed out a small minor issues, like the alt attribute was missing from the logo image in the nav bar and the li elements for the footer wire in an incorrect order. 
-<<<<<<< HEAD
- - All of the pages scored high in the tests, meaning the website adheres to modern accesability standards. 
-![Desktop View](/docs/wireframes/GamingPCS_desktopview.png)
-![Desktop View](/docs/wireframes/HomePage_desktopview.png)
-![Mobile View](/docs/wireframes/HomePage_mobileView.png)
-![Desktop View](/docs/wireframes/WhyChooseUs_desktopView.png)
-![Desktop View](/docs/wireframes/contactUs_desktopview.png)
-=======
+
+
+
  - All of the pages scored high in the tests, meaning the website adhereres to modern accesability standards. 
-![alt text](docs/GamingPCS_desktopview.png)
-![alt text](docs/HomePage_desktopview.png)
-![alt text](docs/HomePage_mobileView.png)
-![alt text](docs/WhyChooseUs_desktopView.png)
-![alt text](docs/contactUs_desktopview.png)
->>>>>>> b12fa6e972fd66119be16872fad1bacb033ef786
+![DesktopView](Docs/Wireframes/ContactUs_desktopview.png)
+![MobileView](Docs/Wireframes/HomePage_mobileView.png)
+![DesktopView](Docs/Wireframes/WhyChooseUs_desktopView.png)
+![DesktopView](Docs/Wireframes/OurServices_desktopView.png)
+![DesktopView](Docs/Wireframes/HomePage Desktop View.png)
 
  #### Functionality Testing
  - All clickable events in the website were tested to ensure the functionalty was as desired. Every navigation link and button was selected to ensure they directed they user to the correct place. 
