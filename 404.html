@@ -4,13 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
+    <title>404 Error</title>
     <link href="../Assets/CSS/style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="Assets/Images/OneStopLogoIcon.ico">
     <script src="https://kit.fontawesome.com/ecb94a392d.js" crossorigin="anonymous"></script>
 </head>
+
+
+
+
+
+
+
 <body class="back-color">
-    <div class="error white-space-color" ><h1>404 Error</h1>
+    <header>
+        <section> <!-- Standard Nav Bar-->
+            
+            <nav class="nav-bar nav-color">
+                
+                <ul>
+                    <li><a href="index.html"><img id="logo" alt="One Stop Tech Clini Logo" src="Assets/Images/OneStopLogo.jpg"></a></li>
+                    <li><a href="index.html" id="current">Home</a></li>
+                    <li><a href="html/gaming-pcs.html">Gaming PCs </a></li>
+                    <li><a href="html/our-services.html"> Our Services</a></li>
+                    <li><a href="html/why-choose-us.html">Why Choose us?</a></li>
+                </ul>
+            </nav>
+        </section>  
+        <section> <!-- Dropdown Nav Bar _ this contains code from W3Schools on how to create a dropdown nav bar  https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp#:~:text=Example%20Explained,dropdown%20menu%20correctly%20with%20CSS.-->
+            <nav class="nav-dropdown nav-color">
+                <a href="./index.html"><img id="logo" src="Assets/Images/OneStopLogo.jpg" alt="One Stop Tech Clinic Logo"></a>
+                <div class="dropdown">
+                    <button class="drop-button">Menu
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-content">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="html/gaming-pcs.html">Gaming PCs </a></li>
+                            <li><a href="html/our-services.html"> Our Services</a></li>
+                            <li><a href="html/why-choose-us.html">Why Choose us?</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </nav>
+        </section>
+    </header>
+    
+    
+    
+    
+    
+    <div class="error" ><h1>404 Error</h1>
         <p>The Page you are trying to access doesnt exist. Please check the URL in the search bar.</p>
     </div>
     
