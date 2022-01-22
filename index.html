@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,30 @@
     <title>One Stop Tech Clinic - Home</title>
     <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="Assets/Images/OneStopLogoIcon.ico">
-</head> 
+</head>
+
 <body>
     <header>
-        <section> <!-- Standard Nav Bar-->
-            
+        <section>
+            <!-- Standard Nav Bar-->
+
             <nav class="nav-bar nav-color">
-                
+
                 <ul>
-                    <li><a href="index.html"><img class="logo" alt="One Stop Tech Clini Logo" src="Assets/Images/OneStopLogo.jpg"></a></li>
+                    <li><a href="index.html"><img class="logo" alt="One Stop Tech Clini Logo"
+                                src="Assets/Images/OneStopLogo.jpg"></a></li>
                     <li><a href="index.html" id="current">Home</a></li>
                     <li><a href="html/gaming-pcs.html">Gaming PCs </a></li>
                     <li><a href="html/our-services.html"> Our Services</a></li>
                     <li><a href="html/why-choose-us.html">Why Choose us?</a></li>
                 </ul>
             </nav>
-        </section>  
-        <section> <!-- Dropdown Nav Bar _ this contains code from W3Schools on how to create a dropdown nav bar  https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp#:~:text=Example%20Explained,dropdown%20menu%20correctly%20with%20CSS.-->
+        </section>
+        <section>
+            <!-- Dropdown Nav Bar _ this contains code from W3Schools on how to create a dropdown nav bar  https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp#:~:text=Example%20Explained,dropdown%20menu%20correctly%20with%20CSS.-->
             <nav class="nav-dropdown nav-color">
-                <a href="./index.html"><img class="logo" src="Assets/Images/OneStopLogo.jpg" alt="One Stop Tech Clinic Logo"></a>
+                <a href="./index.html"><img class="logo" src="Assets/Images/OneStopLogo.jpg"
+                        alt="One Stop Tech Clinic Logo"></a>
                 <div class="dropdown">
                     <button class="drop-button">Menu
                         <i class="fa fa-caret-down"></i>
@@ -39,23 +45,24 @@
                         </ul>
                     </div>
                 </div>
-                
+
             </nav>
         </section>
     </header>
 
     <main>
         <!--Hero Image-->
-        <section id="banner" class="back-color"> 
+        <section id="banner" class="back-color">
             <div>
-                <img src="Assets/Images/OneStopBanner.png" class="hero-image" alt="One Stop Tech Clinic - All Your Device Repair Needs">
+                <img src="Assets/Images/OneStopBanner.png" class="hero-image"
+                    alt="One Stop Tech Clinic - All Your Device Repair Needs">
             </div>
             <div class="synopsis">
                 <h1>All Your Computer Repair Needs</h1>
                 <p>At One Stop Tech Clinic, we pride ourselves on prompt customer service.
-                    We repair laptops, computers and games consoles. 
+                    We repair laptops, computers and games consoles.
                 </p>
-                
+
                 <form action="html/our-services.html">
                     <button class="button-travel">Find out more</button>
                 </form>
@@ -68,7 +75,7 @@
                     <h1>What we do</h1>
                     <p>Computer Repairs, Screen Repairs, Custom Gaming PCs, PS4 and Xbox One repairs.</p>
                 </div>
-            
+
                 <div class="container">
                     <div>
                         <h2>Computer Repairs</h2>
@@ -77,37 +84,41 @@
                     </div>
                     <div>
                         <h2>Gaming PCs</h2>
-                        <p>At One Stop, we have gaming PCs. We've built a range of custom PCs for customers. If you want a custom gaming PC, get in touch with us today. </p>
+                        <p>At One Stop, we have gaming PCs. We've built a range of custom PCs for customers. If you want
+                            a custom gaming PC, get in touch with us today. </p>
                         <a href="html/gaming-pcs.html">See More</a>
                     </div>
                     <div>
                         <h2>Laptop Repairs</h2>
-                        <p>Is your laptop screen broken? Does your mouse not respond anymore? At One Stop, laptops are our bread and butter of repairs.  </p>
+                        <p>Is your laptop screen broken? Does your mouse not respond anymore? At One Stop, laptops are
+                            our bread and butter of repairs. </p>
                         <a href="html/our-services.html">See More</a>
                     </div>
                     <div>
                         <h2>Consoles</h2>
-                        <p>Does your PS4 or Xbox sound like a jet engine about to take off? That's caused by a build up of dust causing the console to overheat.  Here, we can clean all the dust out and reapply thermal paste to the system. </p>
+                        <p>Does your PS4 or Xbox sound like a jet engine about to take off? That's caused by a build up
+                            of dust causing the console to overheat. Here, we can clean all the dust out and reapply
+                            thermal paste to the system. </p>
                         <a href="html/our-services.html">See More</a>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </section>
         <section>
-            
+
         </section>
-        
+
     </main>
 
     <footer>
-         <!--Contact Form which sends to a thank you page-->
+        <!--Contact Form which sends to a thank you page-->
         <section class="footer back-color">
             <div class="contact-us-wrapper">
-                <form action="html/thank-you.html"  method="GET" class="contact-us"> 
+                <form action="html/thank-you.html" method="GET" class="contact-us">
                     <h2 class="contact-input">Contact us</h2>
                     <label for="contact-name" class="contact-label">Name:</label>
-                    <input type="text" id="contact-name" placeholder ="Name">
-                    <label for="contact-email"  class="contact-label">Email:</label>
+                    <input type="text" id="contact-name" placeholder="Name">
+                    <label for="contact-email" class="contact-label">Email:</label>
                     <input type="email" id="contact-email" placeholder="Email">
                     <label id="label-problem" for="contact-message">What is your problem?</label>
                     <textarea id="contact-message" name="contact-message" rows="4" placeholder="Message"></textarea>
@@ -123,8 +134,9 @@
                 </ul>
             </section>
         </section>
-        
+
     </footer>
     <script src="https://kit.fontawesome.com/ecb94a392d.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

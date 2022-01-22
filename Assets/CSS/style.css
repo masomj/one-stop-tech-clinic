@@ -240,7 +240,6 @@
 
 .pc-img {
     width: 10rem;
-
 }
 
 .prebuild-entry span {
@@ -256,6 +255,11 @@
     margin-left: 0.5rem;
 }
 
+.prebuild-entry{
+    background-color: #F0E2D7;
+    margin-bottom:1rem;
+    padding:1rem;
+}
 .prebuild-entry p {
     margin: 0.5rem;
 }
@@ -264,7 +268,7 @@
     margin: auto auto;
     width: 75%;
     padding: 0.5rem;
-    border-radius: 0px 0px 2px 2px
+    border-radius: 0px 0px 2px 2px;
 }
 
 .prebuild-gaming-pcs ul {
@@ -429,9 +433,7 @@
     .nav-bar {
         display: none;
     }
-    #banner{
-        height:
-    }
+
     .nav-dropdown {
         overflow: hidden;
         background-color: white;
