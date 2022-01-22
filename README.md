@@ -71,6 +71,7 @@ After Running my code throught the validator, several issues were identified. Fo
 The errors are shown in the image below. 
 [Validator Errors](Docs/Images/htmlTestFail.png)
 
+After resolving all of the errors shown, I was left with advisories. 
 #### User Stories Testing
 ##### First Time Visitor
 

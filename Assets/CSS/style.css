@@ -1,177 +1,206 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    font-family:'Readex Pro', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Readex Pro', sans-serif;
 }
 
-.hero-image{
-  width:100%;
-  clear:both;
+.hero-image {
+    width: 100%;
+    clear: both;
 }
 
-#banner h1{
-    color:#1a2b6d;
+#banner h1 {
+    color: #1a2b6d;
 }
 
-#current{
-    color:#d71317;
+#current {
+    color: #d71317;
 }
-.nav-bar a{
-     color:#1a2b6d;
-     text-decoration: none;
+
+.nav-bar a {
+    color: #1a2b6d;
+    text-decoration: none;
 }
+
 .nav-bar {
-    height:6rem;
-    
+    height: 6rem;
+
 }
-.logo{
-    height:7rem;
-    margin-bottom:-4px; 
+
+.logo {
+    height: 7rem;
+    margin-bottom: -4px;
 }
-.nav-dropdown{
-    display:none;
+
+.nav-dropdown {
+    display: none;
 }
-.nav-bar ul{
+
+.nav-bar ul {
     display: flex;
-    list-style-type:none;
-    justify-content:left;
-    align-items:center;
-    height:5rem;    
+    list-style-type: none;
+    justify-content: left;
+    align-items: center;
+    height: 5rem;
 }
-.nav-bar li{
+
+.nav-bar li {
     margin-right: 1rem;
 }
-.synopsis{
+
+.synopsis {
     position: relative;
-    top:-5rem;
-    left:50%;
-    width:48%;
-    padding:5px;
-    height:6rem;
-    background-color:white;
-    border-radius: 5px;    
+    top: -5rem;
+    left: 50%;
+    width: 48%;
+    padding: 5px;
+    height: 6rem;
+    background-color: white;
+    border-radius: 5px;
 }
 
-.padding{
-    padding-top:1rem;
+.padding {
+    padding-top: 1rem;
 }
-.button-travel{
-    background-color:#d71317;
-    border-radius:3px;
+
+.button-travel {
+    background-color: #d71317;
+    border-radius: 3px;
     border: none;
-    color:white;
-    height:2rem;
-    padding:5px;
+    color: white;
+    height: 2rem;
+    padding: 5px;
     font-weight: bold;
     position: absolute;
-    right:1rem;
-    bottom:-1rem;
-}
-.back-color{
-    background-color:#D7E5F0;
-    
+    right: 1rem;
+    bottom: -1rem;
 }
 
-.what-we-do{
+.back-color {
+    background-color: #D7E5F0;
 
-    position:relative;
 }
-.what-we-do-wrapper{
-    width:75%;
-    margin:auto auto;
+
+.what-we-do {
+
+    position: relative;
+}
+
+.what-we-do-wrapper {
+    width: 75%;
+    margin: auto auto;
     overflow: hidden;
 }
-.what-we-do-title{
-    margin-left:1rem;
-}
-.what-we-do-title h1{
-    padding-top:1rem;
-}
-.container{
-margin-top:1rem;
- display:flex;
- 
-}
-.container div{
-    height:22rem;
-    padding:0.5rem;
-    margin:0.5rem;
-    width:25%;
-    border:2px white solid;
-    box-shadow:5px 4px 0  1px #eee;
-    background-color:#F0E2D7 ;
-}
-.container p{
-    padding:3rem 0;
-}
-.container h2{
-    padding-top:0.8rem;
-}
-.container a {
-    color:#d71317;
-    position:absolute;
-    bottom:1rem;
-}
-.footer{
-    height:24rem;
-}
-.height{
-    height:5rem;}
-    
-.testimonies{
-    height:20rem;
-    width:50%;
-    margin-right: 25%;
-    margin-left:25%;
-}
-.contact-icons{
-    position: fixed;
-    bottom:0;
-    width:100%;
-    padding:0.5rem;
+
+.what-we-do-title {
+    margin-left: 1rem;
 }
 
-.contact-icons ul li{
-    margin:auto auto;
+.what-we-do-title h1 {
+    padding-top: 1rem;
 }
-.contact-icons ul  {
+
+.container {
+    margin-top: 1rem;
     display: flex;
-    list-style-type:none;
+
 }
-.contact-us-wrapper{
+
+.container div {
+    height: 22rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 25%;
+    border: 2px white solid;
+    box-shadow: 5px 4px 0 1px #eee;
+    background-color: #F0E2D7;
+}
+
+.container p {
+    padding: 3rem 0;
+}
+
+.container h2 {
+    padding-top: 0.8rem;
+}
+
+.container a {
+    color: #d71317;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.footer {
+    height: 24rem;
+}
+
+.height {
+    height: 5rem;
+}
+
+.testimonies {
+    height: 20rem;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.contact-icons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.contact-icons ul li {
+    margin: auto auto;
+}
+
+.contact-icons ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.contact-us-wrapper {
     position: relative;
-    height:18.5rem;
-    padding:1rem;
-    display:block;
-    margin-left:12.5%;
-    margin-right:12.5%;
-    }
- .contact-label{
-    display:block;
-    
- }  
-.contact-input{
-    text-align:center;
+    height: 18.5rem;
+    padding: 1rem;
+    display: block;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
-#contact-message, #contact-name, #contact-email {
+
+.contact-label {
+    display: block;
+    margin-bottom: 1%;
+
+}
+
+.contact-input {
+    text-align: center;
+}
+
+#contact-message,
+#contact-name,
+#contact-email {
     display: block;
     border: 2px white solid;
-    border-radius: 0.3rem; 
-    width:100%;
+    border-radius: 0.3rem;
+    width: 100%;
 }
 
-.contact-icons a{
-    color:black;
+.contact-icons a {
+    color: black;
     align-items: center;
 }
 
-.submit{
-    display:block;
-    background-color:#d71317;
-    color:white;
-    padding:0.4rem;
+.submit {
+    display: block;
+    background-color: #d71317;
+    color: white;
+    padding: 0.4rem;
     margin: auto auto;
     border-radius: 0.2rem;
     border: none;
@@ -183,230 +212,271 @@ margin-top:1rem;
 /*start of Gaming PC's*/
 
 
-.gallery{
-    column-count:3;
-    width:75%;
-    margin:auto auto;
-    padding:0.5rem;
-    
+.gallery {
+    column-count: 3;
+    width: 75%;
+    margin: auto auto;
+    padding: 0.5rem;
+
 }
-.gallery-items{
+
+.gallery-items {
     list-style: none;
-    
+
 }
-.gallery img{
-    width:100%;
-    border:3px solid black;
+
+.gallery img {
+    width: 100%;
+    border: 3px solid black;
     border-radius: 3px;
 }
-.custom-pc-synopsis{
-    width:75%;
-    margin:auto auto;
-    padding:0.5rem;
-    border-radius:2px 2px 0 0;
+
+.custom-pc-synopsis {
+    width: 75%;
+    margin: auto auto;
+    padding: 0.5rem;
+    border-radius: 2px 2px 0 0;
 }
-.pc-img{
-    width:10rem;
-    
+
+.pc-img {
+    width: 10rem;
+
 }
-.prebuild-entry span{    
-    display:inline-block;
-    margin-top:1rem;
+
+.prebuild-entry span {
+    display: inline-block;
+    margin-top: 1rem;
 }
-.prebuild-entry h2{
-    display:inline;
+
+.prebuild-entry h2 {
+    display: inline;
     position: relative;
-    bottom:4rem;
-    border-bottom:2px solid black;
-    margin-left:0.5rem;
+    bottom: 4rem;
+    border-bottom: 2px solid black;
+    margin-left: 0.5rem;
 }
-.prebuild-entry p{
-    margin:0.5rem;
-}
-.prebuild-gaming-pcs{
-    margin:auto auto;
-    width:75%;
-    padding:0.5rem;
-    border-radius:0px 0px 2px 2px
 
+.prebuild-entry p {
+    margin: 0.5rem;
 }
+
+.prebuild-gaming-pcs {
+    margin: auto auto;
+    width: 75%;
+    padding: 0.5rem;
+    border-radius: 0px 0px 2px 2px
+}
+
 .prebuild-gaming-pcs ul {
-    margin-left:3rem;
+    margin-left: 3rem;
 }
 
-.white{
+.white {
     background-color: white;
 }
+
 /*Start of our services */
 /*Our Services Page*/
 
-.services-wrapper{
-    width:75%;
-    margin:auto auto;
-    border-radius:2px;
+.services-wrapper {
+    width: 75%;
+    margin: auto auto;
+    border-radius: 2px;
 }
 
-#our-services-title{
-    width:fit-content;
-    margin:auto auto;
-    border-bottom:2px solid black;
+#our-services-title {
+    width: fit-content;
+    margin: auto auto;
+    border-bottom: 2px solid black;
 }
-.services-wrapper div{
-    padding:1rem;
+
+.services-wrapper div {
+    padding: 1rem;
 }
+
 .services-wrapper h1 {
     text-align: center;
-    padding:1rem;
-    border-bottom:1px solid black;
+    padding: 1rem;
+    border-bottom: 1px solid black;
 }
-.services-wrapper p{
-    padding:0.25rem;
+
+.services-wrapper p {
+    padding: 0.25rem;
 }
 
 /*Why Choose Us*/
-.why-choose-us-wrapper{
-    width:75%;
-    margin:auto auto;
-    padding:1rem;
-    border-radius:2px;
+.why-choose-us-wrapper {
+    width: 75%;
+    margin: auto auto;
+    padding: 1rem;
+    border-radius: 2px;
 }
-#why-choose-us-title{
+
+#why-choose-us-title {
     text-align: center;
     border-bottom: 2px black solid;
-    width:fit-content;
-    margin:auto auto;
+    width: fit-content;
+    margin: auto auto;
 }
-.why-choose-us-wrapper h1{
-    padding:1rem;
-    border-bottom:1px solid black;
+
+.why-choose-us-wrapper h1 {
+    padding: 1rem;
+    border-bottom: 1px solid black;
     text-align: center;
 }
-.why-choose-us-wrapper p{
-    padding:0.25rem;
+
+.why-choose-us-wrapper p {
+    padding: 0.25rem;
 }
 
 
-    
-.opening-times table{
-    margin:auto auto;
+
+.opening-times table {
+    margin: auto auto;
 }
 
-.opening-times table td{
-    padding:0.3rem;
+.opening-times table td {
+    padding: 0.3rem;
 }
 
 /*Thank-you*/
 
-.thank-you-wrapper{
-width:75%;
-margin-top: 1rem;
-margin-left:12.5%;
-padding:1rem;
-border-radius:2px;
-text-align: center;
+.thank-you-wrapper {
+    width: 75%;
+    margin-top: 1rem;
+    margin-left: 12.5%;
+    padding: 1rem;
+    border-radius: 2px;
+    text-align: center;
 
 }
-.thank-you-wrapper h1{
-    padding-bottom:0.5rem;
+
+.thank-you-wrapper h1 {
+    padding-bottom: 0.5rem;
 }
+
 .error {
-    width:75%;
-    margin-top:5rem;
-    margin-left:12.5%;
+    width: 75%;
+    margin-top: 5rem;
+    margin-left: 12.5%;
     padding: 0.5rem;
     border-radius: 2px;
-    
+
 }
+
 /*Media Queries*/
-@media (max-width:426px){
-    *{
-        margin:0;
-        padding:0;
+@media (max-width:426px) {
+    * {
+        margin: 0;
+        padding: 0;
     }
-    #banner{
-        width:100%;
+
+    #banner {
+        width: 100%;
     }
-    .synopsis{
-        display:inline;
+
+    .synopsis {
+        display: inline;
         position: inherit;
-        height:12rem;
+        height: 12rem;
         background-color: inherit;
-        margin:auto auto;
-        
+        margin: auto auto;
+
     }
-    .synopsis p{
+
+    .synopsis p {
         margin: 0.5rem;
-        width:100%;
+        width: 100%;
     }
-    .synopsis h1{
-        margin:0.5rem;
+
+    .synopsis h1 {
+        margin: 0.5rem;
     }
-    .button-travel  {
+
+    .button-travel {
         position: inherit;
         display: block;
-        margin:0.5rem;
+        margin: 0.5rem;
     }
-    .what-we-do{
-        width:100%;
+
+    .what-we-do {
+        width: 100%;
     }
-    .container{
-        display:inline;
+
+    .container {
+        display: inline;
     }
-    .what-we-do-wrapper{
+
+    .what-we-do-wrapper {
         height: 78rem;
-        padding-bottom:0.5rem;
-        width:100%;
+        padding-bottom: 0.5rem;
+        width: 100%;
     }
-    .what-we-do-title h1{
-        padding-top:0.5rem;
-        padding-bottom:0.5rem;
+
+    .what-we-do-title h1 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
-    .container div{
-        width:80%;
-        height:15rem;;
-        margin:auto auto;
-        margin-top:1rem;
+
+    .container div {
+        width: 80%;
+        height: 15rem;
+        ;
+        margin: auto auto;
+        margin-top: 1rem;
     }
-    .nav-bar{
-        display:none;
+
+    .nav-bar {
+        display: none;
     }
-    .nav-dropdown{
+    #banner{
+        height:
+    }
+    .nav-dropdown {
         overflow: hidden;
         background-color: white;
-        display:block;
+        display: block;
     }
-    #logo{
-        float:left;
+
+    .logo {
+        float: left;
+        height: 6rem;
     }
-    .nav-color{
-        background-color:white;
+
+    .nav-color {
+        background-color: white;
     }
+
     /* Refernce below code in readme*/
-    .dropdown{
-        float:left;
-        overflow:hidden;
+    .dropdown {
+        float: left;
+        overflow: hidden;
     }
-    .dropdown .drop-button{
+
+    .dropdown .drop-button {
         font-size: 16px;
-        border:none;
-        outline:none;
-        color:black;
+        border: none;
+        outline: none;
+        color: black;
         padding: 1.8rem 2rem;
-        background-color:inherit;
+        background-color: inherit;
         font-family: inherit;
-        margin:0;
+        margin: 0;
     }
-    .drop-content{
+
+    .drop-content {
         display: none;
         position: absolute;
         background-color: white;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1; 
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
     }
+
     .drop-content ul {
         list-style-type: none;
     }
-    .drop-content a{
+
+    .drop-content a {
         float: none;
         color: black;
         padding: 12px 16px;
@@ -414,71 +484,83 @@ text-align: center;
         display: block;
         text-align: left;
     }
-    .navbar a:hover, .dropdown:hover .drop-button {
-        color:#d71317;
-      }
-    .drop-content a:hover {
-        color:#d71317;
+
+    .navbar a:hover,
+    .dropdown:hover .drop-button {
+        color: #d71317;
     }
+
+    .drop-content a:hover {
+        color: #d71317;
+    }
+
     .dropdown:hover .drop-content {
         display: block;
     }
+
     /*drop down nav complete*/
     /*Gaming PC page*/
     .gallery {
-        width:90%;
+        width: 90%;
     }
-    .custom-pc-synopsis{
-        width:90%;
+
+    .custom-pc-synopsis {
+        width: 90%;
     }
-    .prebuild-gaming-pcs{
-        width:90%;
+
+    .prebuild-gaming-pcs {
+        width: 90%;
     }
-    .prebuild-entry h2{
+
+    .prebuild-entry h2 {
         font-size: large;
     }
 }
-    @media (max-width:320px){
-        .prebuild-entry h2{
-            font-size: small;
-        }
+
+@media (max-width:320px) {
+    .prebuild-entry h2 {
+        font-size: small;
     }
-    
+}
 
 
-@media (min-width:426px) and (max-width:768px){ 
-    .synopsis{
-        height:10rem;
+
+@media (min-width:426px) and (max-width:768px) {
+    .synopsis {
+        height: 10rem;
     }
-    .what-we-do-wrapper{
-        width:100%;
+
+    .what-we-do-wrapper {
+        width: 100%;
     }
-    .container div{
-        width:100%;
-        height:24rem;
-        border:2px white solid;      
+
+    .container div {
+        width: 100%;
+        height: 24rem;
+        border: 2px white solid;
     }
 
 
 
 }
 
-@media (min-width:1440px){
-    *{
+@media (min-width:1440px) {
+    * {
         font-size: 20px;
     }
-    .contact-us-wrapper{
-        width:50%;
-        margin-left:25%;
+
+    .contact-us-wrapper {
+        width: 50%;
+        margin-left: 25%;
 
     }
-    
+
 }
 
 @media (min-width:2560px) {
-    *{
-        font-size:32px;
-    
+    * {
+        font-size: 32px;
+
     }
-    
+
 }
